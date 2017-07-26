@@ -1,8 +1,8 @@
 <?php
 //incluir script en archivo functions del theme sin la apertura php
-//Agregando checkbox a finalizar compra by victor gomez
+//Agregando checkbox a finalizar compra by victor gomez chirino 26/07
 
-// Extra checkbox antes de finalizar compra
+
  
 add_action('woocommerce_review_order_before_submit', 'extra_checkbox_checkout', 9);
   
